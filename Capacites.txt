@@ -1,0 +1,4 @@
+Griffe;35;40;100
+Flammeche;25;40;100
+Eclair;30;40;100
+Vive-Attaque;30;40;100

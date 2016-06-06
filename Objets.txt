@@ -1,0 +1,2 @@
+Potion;20
+Huile;10

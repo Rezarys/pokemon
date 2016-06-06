@@ -1,0 +1,3 @@
+Pika;Pikachu;Eclair;Vive-Attaque;;;20;44;24;23;25;25;41
+Sala;Salameche;Griffe;Flammeche;;;20;45;22;24;29;25;31
+Aspifouette;Aspifion;Griffe;Vive-Attaque;Eclair;Flammeche;50;80;50;50;50;50;50
