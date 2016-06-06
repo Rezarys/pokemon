@@ -1,4 +1,5 @@
 package objets;
+
 import pokemon.Pokemon;
 
 /**

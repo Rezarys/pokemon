@@ -1,4 +1,5 @@
 package main;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -10,10 +11,11 @@ import capacites.CapacitesFactory;
 import objets.Huile;
 import objets.ObjetFactory;
 import objets.ObjetQuantifiable;
+import objets.Potion;
 import pokemon.Pokemon;
 import pokemon.PokemonFactory;
 
-public class Pokemouille {
+public class Main {
 
 	/**
 	 * Méthode principale s'occupant de l'affichage, la prise en compte des
@@ -150,7 +152,7 @@ public class Pokemouille {
 						}
 					}
 					// Si on utilise une potion
-					else {
+					else if (dActif.getSac().get(choixObjet).getObj() instanceof Potion) {
 						int choixPokemon = choixPokemon(dActif, sc, false);
 						if (choixPokemon == 6)
 							// si retour sur choix du pokemon
